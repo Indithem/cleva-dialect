@@ -1,0 +1,14 @@
+[package]
+name = "tree-sitter-cleva"
+edition = "2021"
+
+build = "bindings/rust/build.rs"
+
+[lib]
+path = "bindings/rust/lib.rs"
+
+[dependencies]
+tree-sitter = ">=0.22.6"
+
+[build-dependencies]
+cc = "1.0.87"

@@ -1,0 +1,5 @@
+# your cp source files
+/cp
+
+# rust generated files
+/target

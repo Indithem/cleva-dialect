@@ -1,0 +1,11 @@
+[package]
+name = "cleva-dialect-transpiler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tree-sitter = "0.22.6"
+tree-sitter-cleva = { path = "./tree-sitter-cleva" }
+# tree-sitter-cleva = {version = "0.21.4", package = "tree-sitter-c"}
